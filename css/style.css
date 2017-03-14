@@ -135,20 +135,52 @@ header {
 header ul {
 	position: fixed;
 	right: 30px;
-	margin-top: 30px;
+	padding-top: 30px;
 }
 
 header li {
 	display: inline;
-	padding: 20px;
+	padding: 10px;
 }
 
 .navbarlogo {
 	position: fixed;
 	left: 30px;
-	margin-top: 30px;
-	width: 100px;
+	margin-top: 20px;
+	width: 150px;
 
+}
+
+@media screen and ( max-width:479px )
+{
+
+	header {
+		position: fixed;
+		top: 0px;
+		background-color: #fff;
+		width: 100%;
+		display: inline-block;
+		height: 100px;
+		z-index: 999;
+	}
+
+	header ul {
+		position: fixed;
+		right: 10px;
+		padding-top: 45px;
+	}
+
+	header li {
+		display: inline;
+		padding: 10px;
+	}
+
+	.navbarlogo {
+		position: fixed;
+		left: 20px;
+		margin-top: 35px;
+		width: 140px;
+	}
 }
 /*header section end*/
 
@@ -157,59 +189,105 @@ footer {
 	background-color: #CCCCCC;
 	text-align: center;
 	width: 100%;
-	height: 80px;
-	padding: 35px;
+	height: 200px;
+}
+
+footer div {
+
 }
 
 footer p {
-	text-align: center;
 	color: #999999;
-	font-weight: 100;
 	font-size: 10px;
+	padding-top: 160px;
 }
 /*footer section end*/
+
 
 /*body section start*/
 #home {
 	text-align: center;
-	max-height: 100px;
-	max-width: 200px;
+	width: 100%;
+	height: 100px;
 	margin-top: 120px;
-	margin-bottom: 60px;
+}
+
+#home img {
+	max-width: 200px; 
+}
+
+
+#home div {
+	padding: 10px;
+	color: #444444;
 }
 
 #content {
+	text-align: center;
 	display: inline-block;
 	width: 100%;
 	margin-top: 40px; 
 }
 
-.content {
-	text-align: center;
+#content div {
+	width: 100%;
+	height: 400px;
+	padding-top: 150px;
 }
 
-.content img {
-	text-align: center;
-	max-height: 100px;
+#content img {
 	max-width: 200px;
-	margin: 100px;
 }
 
-.content h2 {
-	font-size: 50px;
-	font-weight: 100;
-	margin: 100px;
-	color: #7F7F7F;
-
-}
-
-.content p {
-	position: absolute;
-	margin: 143px 30px;
-	font-weight: 100;
-	color: #fff;
+#content p {
+	padding-top: 50px;
+	color: #444444;
 	opacity: 0.8;
 }
+/*Mobile*/
+
+@media screen and ( max-width:479px )
+{   
+	#home {
+		text-align: center;
+		max-height: 100px;
+		max-width: 200px;
+		margin-top: 150px;
+		margin-bottom: 60px;
+	}
+	#home img {
+		max-width: 200px; 
+	}
+
+	#home div {
+		padding: 10px;
+		color: #444444;
+	}
+
+	#content {
+		text-align: center;
+		display: inline-block;
+		width: 100%;
+		margin-top: 40px; 
+	}
+	#content div {
+		text-align: center;
+		width: 100%;
+		height: 400px;
+		padding-top: 140px;
+	}
+
+	#content img {
+		text-align: center;
+		max-width: 220px;
+	}
+
+	#content p {
+		padding-top: 50px;
+		color: #444444;
+		opacity: 0.8;
+	}
+｝
 /*body section end*/
 
 
