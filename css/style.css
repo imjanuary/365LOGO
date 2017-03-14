@@ -145,9 +145,10 @@ header li {
 
 .navbarlogo {
 	position: fixed;
-	max-width: 100px;
 	left: 30px;
 	margin-top: 30px;
+	width: 100px;
+
 }
 /*header section end*/
 
@@ -166,8 +167,9 @@ footer p {
 	font-weight: 100;
 	font-size: 10px;
 }
-
 /*footer section end*/
+
+/*body section start*/
 #home {
 	text-align: center;
 	max-height: 100px;
@@ -208,7 +210,7 @@ footer p {
 	color: #fff;
 	opacity: 0.6;
 }
-
+/*body section end*/
 
 
 /* end */
