@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+
+<title>365| LOGO</title>
+
+<!-- css start -->
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto" rel="stylesheet">
+<!-- css end -->
+
+<!-- javascript start -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+<script>
+ $(function(){
+  $('a[href^=#]').click(function(){
+   var target　=　$(this).attr('href');
+   var targetPosition = $(target).offset().top;
+     $('html, body').animate({scrollTop:targetPosition},1000,'easeOutCubic');
+   return false;
+  })
+ })
+</script>
+<!-- javascript end -->
+</head>
+
+
+<body>
+
+	<header>
+		<div class="navbarlogo"><img src="images/logo.svg"></div>
+		<ul>
+			<a href="#header"><li>365 LOGO</li></a>
+			<a href=""><li>ABOUT</li></a>
+		</ul>
+	</header>
+	
+	<div id="home" style="background-color: #ffffff">
+		<img src="images/logo.svg">
+	</div>
+
+	<div id="content">
+		
+
+		<div class="content" style="background-color: #E6E6E6"><p>2017/03/14</p><img src="images/0314.png"></div>
+		<div class="content" style="background-color: #66FFCC"><p>2017/03/15</p><img src="images/0314.png"></div>
+	</div>
+
+	<footer>
+		<p>© One Design Group | All Rights Reserved.</p>
+		
+	</footer>
+
+</body>
+</html>
