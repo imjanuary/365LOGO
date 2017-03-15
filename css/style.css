@@ -236,7 +236,7 @@ footer p {
 #content div {
 	width: 100%;
 	height: 400px;
-	padding-top: 150px;
+	padding-top: 100px;
 }
 
 #content img {
@@ -244,8 +244,8 @@ footer p {
 }
 
 #content p {
-	padding-top: 50px;
-	color: #444444;
+	padding-top: 20px;
+	color: #ffffff;
 }
 /*Mobile*/
 
@@ -276,7 +276,7 @@ footer p {
 		text-align: center;
 		width: 100%;
 		height: 370px;
-		padding-top: 125px;
+		padding-top: 80px;
 	}
 
 	#content img {
@@ -285,8 +285,8 @@ footer p {
 	}
 
 	#content p {
-		padding-top: 50px;
-		color: #444444;
+		padding-top: 10px;
+		color: #ffffff;
 	}
 ｝
 /*body section end*/
