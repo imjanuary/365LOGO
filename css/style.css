@@ -208,7 +208,10 @@ header img {
 
 /*footer section start*/
 footer {
-	background-color: #EBEBEB;
+	background-color: #E6E6E6;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #DCDCDC;
 	text-align: center;
 	width: 100%;
 	padding-top: 40px;
