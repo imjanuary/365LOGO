@@ -19,17 +19,6 @@
 <!-- javascript start -->
 <script type=text/javascript src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-
-<script>
-$(function(){
-  $('a[href^=#]').click(function(){
-   var target　=　$(this).attr('href');
-   var targetPosition = $(target).offset().top;
-     $('html, body').animate({scrollTop:targetPosition},1000,'easeOutCubic');
-   return false;
-  })
- })
-</script>
 <!-- javascript end -->
 </head>
 
@@ -77,6 +66,18 @@ $(function(){
 		</div>
 		<a href="http://onedesigngroup.github.io"><p>© ONE DESIGN GROUP | All Rights Reserved.</p></a>
 	</footer>
+
+
+<script>
+$(function(){
+  $('a[href^=#]').click(function(){
+   var target　=　$(this).attr('href');
+   var targetPosition = $(target).offset().top;
+     $('html, body').animate({scrollTop:targetPosition},1000,'easeOutCubic');
+   return false;
+  })
+ })
+</script>	
 
 </body>
 </html>
