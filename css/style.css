@@ -296,6 +296,10 @@ footer h2 {
 	padding-top: 20px;
 	color: #ffffff;
 }
+
+#pagetop {
+	
+}
 /*Mobile*/
 
 @media screen and ( max-width:479px )

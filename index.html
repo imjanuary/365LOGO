@@ -17,8 +17,7 @@
 
 
 <!-- javascript start -->
-<script type=text/javascript src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <!-- javascript end -->
 </head>
 
@@ -32,7 +31,7 @@
 			<a href="https://www.behance.net/imjanuary"><img src="images/behance.svg"></a>
 		</div>
 		<ul>
-			<a href="#top"><li>PAGETOP</li></a>
+			<a id="pagetop" href="#"><li>PAGETOP</li></a>
 			<a href="#"><li>ABOUT</li></a>
 		</ul>
 	</header>
@@ -70,13 +69,14 @@
 
 <script>
 $(function(){
-  $('a[href^=#]').click(function(){
-   var target　=　$(this).attr('href');
-   var targetPosition = $(target).offset().top;
-     $('html, body').animate({scrollTop:targetPosition},1000,'easeOutCubic');
-   return false;
-  })
- })
+	var topBtn = $('#pageTop');
+    topBtn.click(function () {
+		$('body,html').animate({
+			scrollTop: 0
+		}, 1000,'easeOutCubic');
+		return false;
+    });
+});
 </script>	
 
 </body>
