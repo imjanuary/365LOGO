@@ -310,13 +310,13 @@ footer h2 {
 }
 
 #about {
-	font-size: 50px;
+	font-size: 40px;
 	font-weight: 100;
 	padding-top: 120px;
 }
 
 #profile {
-	margin: 100px auto;
+	margin: 80px auto;
 }
 
 #profile img {
@@ -378,13 +378,13 @@ footer h2 {
 	}
 
 	#about {
-	font-size: 50px;
+	font-size: 40px;
 	font-weight: 100;
 	padding-top: 160px;
 	}
 
 	#profile {
-		margin: 100px auto;
+		margin: 80px auto;
 	}
 
 	#profile img {
