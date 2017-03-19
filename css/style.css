@@ -309,6 +309,33 @@ footer h2 {
     opacity: 0.8;    
 }
 
+#about {
+	font-size: 50px;
+	font-weight: 100;
+	padding-top: 120px;
+}
+
+#profile {
+	margin: 100px auto;
+}
+
+#profile img {
+	max-width: 300px;
+}
+
+#profile h2 {
+	font-size: 40px;
+	font-weight: 300;
+	margin: 40px auto;
+}
+
+#profile p {
+	font-size: 20px;
+	font-weight: 100;
+	margin: 40px auto;
+}
+
+
 /*Mobile*/
 
 @media screen and ( max-width:479px )
@@ -349,6 +376,33 @@ footer h2 {
 		padding-top: 10px;
 		color: #ffffff;
 	}
+
+	#about {
+	font-size: 50px;
+	font-weight: 100;
+	padding-top: 160px;
+	}
+
+	#profile {
+		margin: 100px auto;
+	}
+
+	#profile img {
+		max-width: 340px;
+	}
+
+	#profile h2 {
+		font-size: 40px;
+		font-weight: 300;
+		margin: 40px auto;
+	}
+
+	#profile p {
+		font-size: 20px;
+		font-weight: 100;
+		margin: 40px auto;
+	}
+
 ｝
 /*body section end*/
 
