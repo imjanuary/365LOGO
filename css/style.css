@@ -313,6 +313,7 @@ footer h2 {
 	font-size: 40px;
 	font-weight: 100;
 	padding-top: 120px;
+	line-height: 40px;
 }
 
 #profile {
@@ -320,7 +321,7 @@ footer h2 {
 }
 
 #profile img {
-	max-width: 300px;
+	max-width: 350px;
 }
 
 #profile h2 {
@@ -381,6 +382,7 @@ footer h2 {
 	font-size: 40px;
 	font-weight: 100;
 	padding-top: 160px;
+	line-height: 40px;
 	}
 
 	#profile {
@@ -388,7 +390,7 @@ footer h2 {
 	}
 
 	#profile img {
-		max-width: 340px;
+		max-width: 350px;
 	}
 
 	#profile h2 {
