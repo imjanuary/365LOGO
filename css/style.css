@@ -301,8 +301,6 @@ footer h2 {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #ffffff;
-    padding: 10px;
     height: 40px;
     width: 40px;
     border-radius: 100px;
@@ -404,6 +402,17 @@ footer h2 {
 		font-weight: 300;
 		margin: 40px auto;
 	}
+
+	#pagetop {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    opacity: 0.8;    
+}
+
 
 ｝
 /*body section end*/
