@@ -17,7 +17,6 @@
 
 
 <!-- javascript start -->
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
 <!-- javascript end -->
 </head>
@@ -43,6 +42,8 @@
 	</div>
 
 	<div id="content">
+		<!-- <div class="content" style="background-color: #ffffff"><img src="images/logo/0326.png"><p>2017 / 03 / 26</p></div> -->
+		<!-- <div class="content" style="background-color: #ffffff"><img src="images/logo/0325.png"><p>2017 / 03 / 25</p></div> -->
 		<!-- <div class="content" style="background-color: #ffffff"><img src="images/logo/0324.png"><p>2017 / 03 / 24</p></div> -->
 		<!-- <div class="content" style="background-color: #ffffff"><img src="images/logo/0323.png"><p>2017 / 03 / 23</p></div> -->
 		<div class="content" style="background-color: #0798dc"><img src="images/logo/0322.png"><p>2017 / 03 / 22</p></div>
@@ -77,14 +78,14 @@ $(function(){
     // スクロールした場合
     $(window).scroll(function(){
         // スクロール位置が100を超えた場合
-        if ($(this).scrollTop() > 500) {
+        if ($(this).scrollTop() > 600) {
             // 「ページトップへ」をフェードイン
-            $('#pagetop').fadeIn('slow');
+            $('#pagetop').fadeIn(1000);
         }
         // スクロール位置が100以下の場合
         else {
             // 「ページトップへ」をフェードアウト
-            $('#pagetop').fadeOut('slow');
+            $('#pagetop').fadeOut(1000);
         }
     });
  
